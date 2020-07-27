@@ -1,6 +1,7 @@
 package com.edencoding.animation;
 
 import javafx.animation.AnimationTimer;
+import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 
 /**
@@ -12,13 +13,13 @@ public abstract class SimpleAnimationTimer extends AnimationTimer {
 
     long lastFrameTime = -1L;
     long deltaTimeNano;
-    SimpleIntegerProperty frameRate = new SimpleIntegerProperty(0);
+    IntegerProperty frameRate = new SimpleIntegerProperty(0);
 
     public int getFrameRate() {
         return frameRate.get();
     }
 
-    public SimpleIntegerProperty frameRateProperty() {
+    public IntegerProperty frameRateProperty() {
         return frameRate;
     }
 

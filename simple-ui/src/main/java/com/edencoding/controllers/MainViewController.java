@@ -3,12 +3,10 @@ package com.edencoding.controllers;
 import com.edencoding.animation.SimpleAnimationTimer;
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.beans.binding.Bindings;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.converter.NumberStringConverter;
@@ -19,19 +17,17 @@ import java.util.ResourceBundle;
 public class MainViewController implements Initializable {
 
     public VBox backgroundPane;
-    public HBox titleBox;
     public Label FPSLabel;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        SimpleAnimationTimer animationTimer = new SimpleAnimationTimer() {
+        SimpleAnimationTimer timer = new SimpleAnimationTimer() {
             @Override
             public void tick() {
-
             }
         };
-        animationTimer.start();
-        FPSLabel.textProperty().bindBidirectional(animationTimer.frameRateProperty(), new NumberStringConverter("FPS: "));
+        timer.start();
+        FPSLabel.textProperty().bindBidirectional(timer.frameRateProperty(), new NumberStringConverter("FPS: "));
     }
 
     @FXML

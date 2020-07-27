@@ -11,13 +11,13 @@ import javafx.util.Duration;
 
 public class ToastContainer extends VBox {
 
-    public ToastContainer(){
+    public ToastContainer() {
         setSpacing(10);
         setPadding(new Insets(25));
         setAlignment(Pos.BOTTOM_RIGHT);
     }
 
-    public void displayToast(String message){
+    public void displayToast(String message) {
         Label errorLabel = new Label(message);
         errorLabel.setWrapText(true);
         errorLabel.getStyleClass().add("error-label");

@@ -15,6 +15,10 @@ public class App extends Application {
     private double xOffset;
     private double yOffset;
 
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/MainView.fxml"));
@@ -41,9 +45,5 @@ public class App extends Application {
 
         primaryStage.setScene(scene);
         primaryStage.show();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
     }
 }
