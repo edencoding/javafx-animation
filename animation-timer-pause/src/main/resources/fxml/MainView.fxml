@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="300.0" prefWidth="300.0" styleClass="shadow-pane" stylesheets="@../css/application.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edencoding.controllers.MainViewController">
+    <center>
+        <VBox fx:id="backgroundPane" spacing="10" styleClass="background-pane">
+            <HBox alignment="CENTER">
+                <padding>
+                    <Insets right="5" top="2" />
+                </padding>
+                <HBox HBox.hgrow="SOMETIMES">
+                    <ImageView>
+                        <Image url="@../img/EdenCodingHeader_Small.png" />
+                    </ImageView>
+                </HBox>
+                <HBox id="right-icons" alignment="CENTER_RIGHT" spacing="10" HBox.hgrow="SOMETIMES">
+                    <Button onAction="#handleGitButtonClicked" styleClass="git-button" />
+                    <Button onAction="#handleExitButtonClicked" styleClass="exit-button" />
+                </HBox>
+            </HBox>
+            <ScrollPane fitToHeight="true" fitToWidth="true" styleClass="transparent-background" VBox.vgrow="ALWAYS">
+                <StackPane fx:id="contentContainer">
+                    <VBox>
+                        <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+                            <Label fx:id="timerClock" styleClass="app-text" />
+                            <Label styleClass="app-text" text=" s" />
+                        </HBox>
+                        <HBox alignment="TOP_CENTER" spacing="25.0" VBox.vgrow="ALWAYS">
+                            <Button onAction="#resetTimer" styleClass="restart" />
+                            <Button onAction="#stopTimer" styleClass="stop" />
+                            <Button fx:id="playPauseSwitch" onAction="#playPauseSwitchPressed" styleClass="pause" />
+                        </HBox>
+                    </VBox>
+                </StackPane>
+            </ScrollPane>
+        </VBox>
+    </center>
+</BorderPane>

@@ -34,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../animation-timer-pause" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,7 +72,7 @@
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.edencoding.App" />
-      <module name="EdenCoding JavaFX Animation" />
+      <module name="animation-timer-pause" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.openjfx.*" />
@@ -117,14 +117,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="77" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595742036600">
+    <state x="77" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595829403306">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="77" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1595742036600" />
-    <state x="446" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1595708804866">
+    <state x="77" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1595829403306" />
+    <state x="446" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1595873326272">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="446" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1595708804866" />
+    <state x="446" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1595873326272" />
     <state x="352" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595742030058">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -138,30 +138,26 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594814632884" />
-    <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1595829376998">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="421" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1595829376998" />
-    <state width="1237" height="385" key="GridCell.Tab.0.bottom" timestamp="1595745258407">
+    <state width="1237" height="130" key="GridCell.Tab.0.bottom" timestamp="1595937849982">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1237" height="272" key="GridCell.Tab.0.bottom/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594815328260" />
-    <state width="1237" height="385" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1595745258407" />
-    <state width="1237" height="385" key="GridCell.Tab.0.center" timestamp="1595745258407">
+    <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1595937849982" />
+    <state width="1237" height="130" key="GridCell.Tab.0.center" timestamp="1595937849982">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1237" height="272" key="GridCell.Tab.0.center/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594815328260" />
-    <state width="1237" height="385" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1595745258407" />
-    <state width="1237" height="385" key="GridCell.Tab.0.left" timestamp="1595745258407">
+    <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1595937849982" />
+    <state width="1237" height="130" key="GridCell.Tab.0.left" timestamp="1595937849981">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1237" height="272" key="GridCell.Tab.0.left/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594815328260" />
-    <state width="1237" height="385" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1595745258407" />
-    <state width="1237" height="385" key="GridCell.Tab.0.right" timestamp="1595745258407">
+    <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1595937849981" />
+    <state width="1237" height="130" key="GridCell.Tab.0.right" timestamp="1595937849982">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1237" height="272" key="GridCell.Tab.0.right/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594815328260" />
-    <state width="1237" height="385" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1595745258407" />
+    <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1595937849982" />
     <state width="1237" height="385" key="GridCell.Tab.1.bottom" timestamp="1595745258407">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
